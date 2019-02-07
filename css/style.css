@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 
-h1,h2,h3 {
+h1,h2,h3,h4 {
   margin: 0 0 10px 0;
   padding: 0;
 }
@@ -18,6 +18,15 @@ h1 {
 }
 header {
   margin-top: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.taim {
+  color: red;
 }
 
 .container {
@@ -61,8 +70,28 @@ header {
   text-decoration: none;
 }
 
+.blog-image{
+  float: left;
+  margin: 10px 10px 10px 10px;
+}
+
+.blog-text{
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
 .text-title {
+  color: pink;
   font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.text {
+  color: block;
+  font-size: 12px;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 20px;
@@ -77,11 +106,64 @@ header {
 
 .left-contents {
   width: 600px;
-  margin-right: 20px;
+  margin-right: 40px;
   float: left;
 }
 
 .right-contents {
   width: 300px;
   float: left;
+}
+
+.new-contents-area:after{
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.new-contents {
+  width: 600px;
+    margin-right: 10px;
+    float: left;
+}
+
+.new-image{
+  margin-bottom: 50px;
+  width: 100px;
+  height: 60px;
+  display: block;
+  float: left;
+}
+
+.new-text{
+    top: 20px;
+    left: 20px;
+    float: left;
+}
+
+.new-title{
+  color: pink;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.new-taim {
+  color: red;
+  font-size: 5px;
+}
+
+.copyright {
+  color: #777;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+ margin: 40px auto 10px auto;
+}
+
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
 }
